@@ -102,7 +102,7 @@ max(energy)
 '''
 
 3. List all tracks along with their views and likes where `official_video = TRUE`.
-5. For each album, calculate the total views of all associated tracks.
+4. For each album, calculate the total views of all associated tracks.
 '''sql
    select 
 album,track,
@@ -113,7 +113,7 @@ order by 3 desc;
    '''
 
 
-6. Retrieve the track names that have been streamed on Spotify more than YouTube.
+5. Retrieve the track names that have been streamed on Spotify more than YouTube.
 
 '''sql
 select *from 
